@@ -355,7 +355,7 @@ def search():
             blocked=True,
             error_message=translation['ratelimit'],
             translation=translation,
-            farside='https://farside.link',
+            farside='https://whoogale.onrender.com',
             config=g.user_config,
             query=urlparse.unquote(query),
             params=g.user_config.to_params(keys=['preferences'])), 503
