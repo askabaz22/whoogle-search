@@ -24,14 +24,26 @@
         <h4><a class="link" href="https://farside.link">{{ translation['continue-search'] }}</a></h4>
         Whoogle:
         <br>
-        <a class="link-color" href="{{farside}}/whoogle/search?q={{query}}{{params}}">
-            {{farside}}/whoogle/search?q={{query}}
+        <a class="link-color" href="{{farside}}/search?q={{query}}{{params}}">
+            Whoogale.onrender.com - {{query}}
         </a>
         <br><br>
-        Searx:
+        DuckDuckGo:
         <br>
         <a class="link-color" href="{{farside}}/searx/search?q={{query}}">
-            {{farside}}/searx/search?q={{query}}
+            DuckDuckGo.com - {{query}}
+        </a>
+        <br><br>
+        StartPage:
+        <br>
+        <a class="link-color" href="https://www.startpage.com/sp/search?query={{query}}">
+            StartPage.com - {{query}}
+        </a>
+        <br><br>
+        Brave Search:
+        <br>
+        <a class="link-color" href="https://search.brave.com/search?q={{query}}">
+            Brave Search - {{query}}
         </a>
         <hr>
     {% endif %}
