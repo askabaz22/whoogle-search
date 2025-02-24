@@ -88,7 +88,7 @@ def gen_bangs_json(bangs_file: str) -> None:
     load_all_bangs(bangs_file, bangs_data)
 
 
-def suggest_bang(query: str) -> list:
+def suggest_bang(query: str) -> list[str]:
     """Suggests bangs for a user's query
 
     Args:
